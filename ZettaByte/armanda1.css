@@ -1,0 +1,180 @@
+body {
+  margin: 30px 200px;
+  box-sizing: border-box;
+  font-family: "fantasy", sans-serif;
+  background-color: rgb(248, 255, 252);
+}
+
+.container-satu {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  box-shadow: 0 5px 7px #ccc;
+}
+
+.container-dua {
+  background-color: rgb(233, 233, 233);
+  margin-top: 0px;
+  padding: 30px;
+  box-shadow: 0 5px 7px #ccc;
+}
+
+/* Bagian Nav */
+
+.flex-container {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.flex-container .nav-left {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.flex-container .nav-left > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.flex-container > .nav-left span {
+  color: rgb(168, 160, 160);
+}
+
+.flex-container > .nav-left a {
+  text-decoration: none;
+  color: lightskyblue;
+}
+
+.flex-container > .nav-left p {
+  padding-left: 20px;
+}
+
+.flex-container .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container .nav-right > img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Akhir Bagian Nav */
+
+/* Awal Bagian Main Content */
+
+.main-content > section img {
+  width: 100%;
+  box-shadow: 0 3px 5px #ccc;
+}
+
+#status {
+  padding: 20px 0px;
+}
+
+section#likenShare > p img {
+  width: 10px;
+  height: 10px;
+  display: inline;
+}
+
+section#likenShare {
+  padding-top: 30px;
+}
+
+section#likenShare > p {
+  display: inline;
+}
+
+.p2 {
+  padding-left: 40px;
+}
+
+/* Akhir Bagian Main Content */
+
+/* Awal Bagian Comment */
+
+.comment-section > .komen1 p img {
+  width: 15px;
+  height: 15px;
+}
+
+.comment-section .komen2 > img#foto {
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  padding-top: 0px;
+}
+
+.comment-section .komen2 p a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+.comment-section .komen2 p span {
+  color: rgb(130, 130, 144);
+}
+
+.comment-section div section > img#flag {
+  width: 15px;
+  height: 15px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+#reply {
+  padding: 20px 90px;
+}
+
+#reply a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+.comment-section .komen3 > img#foto2 {
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  padding-top: 0px;
+}
+
+.flex-comment2 .komen2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.flex-comment3 .komen3 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+textarea {
+  margin-left: 20px;
+  width: 100% auto;
+}
+
+.comment-section .flex-comment2 .komen2 P {
+  padding-left: 20px;
+  align-items: center;
+  width: 80%;
+}
+
+button {
+  margin: 30px 90px;
+  width: 130px;
+  height: 50px;
+  color: white;
+  background-color: rgb(102, 102, 233);
+  border-radius: 15%;
+}

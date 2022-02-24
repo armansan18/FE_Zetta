@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Median</title>
+  </head>
+  <body>
+    <script>
+      const input = [8, 7, 7, 9, 5, 4, 2, 9];
+
+      function result(input) {
+        const urutkanData = input.sort();
+        if (urutkanData.length % 2 == 0) {
+          // const nilaiTengah = (urutkanData[3] + urutkanData[4]) / 2;
+          nilaiTengah = urutkanData.length / 2 + urutkanData.length / 2 - 1;
+        } else {
+          nilaiTengah = urutkanData.length / 2 + 1;
+          nilaiTengah = Math.ceil(nilaiTengah);
+        }
+        return nilaiTengah;
+      }
+
+      console.log(result(input));
+    </script>
+  </body>
+</html>
